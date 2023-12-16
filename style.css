@@ -1,0 +1,216 @@
+
+/*========================================================= STANDARD PAGE ============================================================*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #bfc3c9;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+    width: 100%;
+    
+    
+}
+p{
+    line-height: 190%;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+}
+h2{
+    color: aliceblue;
+}
+
+/*==================== MENU ====================*/
+#menu{
+    background-color: silver;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding-left:  335px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: black;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;*/
+}
+
+#menu a:hover{
+    background-color: whitesmoke;
+}
+
+/*============================= header =============================*/
+
+#header h1{
+    letter-spacing: 0.1em;
+    color: white;
+    text-transform: uppercase;
+}
+
+#header p{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+#header{
+    background-color: #333333;
+    text-align: center;
+    padding:60px 0px 40px 0;
+}
+.w3-center{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+/*=========================== SLIDE ===========================*/
+#slide img{
+    border-radius: 8px;
+    filter: grayscale(100%);
+}
+#slide{
+    border: solid;
+    border-bottom-style: double red;
+    padding-bottom: 25px;
+    
+}
+/*==================================  FOOTER  ==================================*/
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+#footer p{
+    color: white;
+}
+
+#footer ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+/*BOXES*/
+#box-1{
+    float: left;
+    width: 30%;
+    padding-right: 30px
+}
+
+#box-2{
+    float: left;
+    width: 30%;
+    padding-right: 30px
+}
+
+#box-3{
+    float: right;
+    width: 30%;
+    padding-left: 30px
+}
+
+
+/*COPYRIGHT*/
+#copyright{
+    width: 102%;
+    height: 100px;
+    text-align: center;
+    background-color: silver;
+    padding-top: 55px;
+    clear: both;
+    
+   
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: black;
+}
+
+/*========================================================= STANDARD PAGE ============================================================*/
+
+
+/*CONTACT PAGE*/
+.contact {
+    margin-left: 10px;
+}
+
+.button {
+    background-color: #555555;
+    border: none;color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+/*Car page*/ 
+#car-details ul{
+    list-style-type: none;
+    color: white;
+}
+
+#car img{
+    padding-top: 2px;
+    border-radius: 8px;
+    width: 100%;
+    border: solid;
+}
+
+
+#c2 img{
+    float: left;
+    width: 48%;
+    margin-left: 1px;
+    height: 
+    
+}
+#c3{
+    float: right;
+    width: 48%;
+    margin-right: 10px;
+}
+
+

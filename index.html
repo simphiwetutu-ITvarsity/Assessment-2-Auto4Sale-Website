@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Auto4Sale Website | Home</title>
+        <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            .mySlides {display:none;}
+        </style>
+    </head>
+    <body>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+            <ul>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        
+        <div id="header">
+            <h1>Auto4Sale</h1>
+            <p>
+                Auto4Sale has a wide range of Cars for Sale in South Africa from Hot BMW's & Toyota to Bakkies & Reanaults. We know everyone is different and everyone is looking for a car with different requirements. Use our search forms to choose used cars, certified pre owned cars, brand new cars for sale in Gauteng, Mpumalanga, Western Cape or another South African Province. You can also browse cars by makes like BMW, volkswagen, Mazda, Renault, Toyota and many others.
+            </p>
+        </div>
+        <div id="slide">
+            <h2 class="w3-center">FEATURED CARS </h2>
+            <div class="w3-content w3-display-container">
+              <a href="kwid.html" ><img class="mySlides" src="images/Renault electric SUV exclusive 1.jpg" style="width:100%"></a>
+              <a href="mazda.html" ><img class="mySlides" src="images/New mazda 2 s2.jpg" style="width:100%"></a>
+              <a href="volkswagen.html" ><img class="mySlides" src="images/vw-t-roc_1.jpg" style="width:100%"></a>
+              <a href="bmw.html" ><img class="mySlides" src="images/bmw-1-series-01.jpeg" style="width:100%"></a>
+              <a href="toyota-land.html" ><img class="mySlides" src="images/Toyota-Tacoma-Hybrid-Pickup-Truck 5.jpg" style="width:100%"></a>
+              <a href="porsche.html" ><img class="mySlides" src="images/porcsche 6.jpeg" style="width:100%"></a>
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </div>
+        
+        <div id="page">
+		</div>
+		
+		
+		<div id="footer">
+		
+                <div id="box-1">
+                    <h2>CARS Links</h2>
+                    <ul class="styled">
+                        <li><a href="kwid.html" >RENAULT-Kwid</a></li>
+                        <li><a href="mazda.html" >MAZDA</a></li>
+                        <li><a href="volkswagen.html" >VOLKSWAGEN</a></li>
+                    </ul>  
+                </div>
+                
+                <div id="box-2">
+                    <h2>CARS Links</h2>
+                    <ul class="styled">
+                        <li><a href="bmw.html" >BMW 1 SERIES</a></li>
+                        <li><a href="porsche.html" >PORSCHE</a></li>
+                        <li><a href="toyota-land.html" >TOYOTA</a></li>
+                    </ul>
+                </div>
+                
+                <div id="box-3">
+                    <h2>Follow Us</h2>
+                    <p>Connect with us to stay informed....</p>
+                    
+                    <a href="#" ><img src="images/facebook.png" height="30px" ></a>
+                    <a href="#" ><img src="images/instagram.png" height="30px" ></a>
+                    <a href="#" ><img src="images/twitter.png" height="30px" ></a>
+                    <a href="#" ><img src="images/pinterest.png" height="30px"></a>
+                </div>
+            </div>
+			
+        <div id="copyright">
+                <p>&copy; All Rights Reserved | Designed by PHIRI ADAM :)</p>
+        </div>
+        
+<!--====================================================================== JAVASCRIPT =================================================================-->
+                <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<!--====================================================================== JAVASCRIPT =================================================================-->
+	
+    </body>
+
+</html>
+
+<head>
+        
